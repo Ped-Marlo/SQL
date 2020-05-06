@@ -1,0 +1,7 @@
+--select    ID, Nombre_Est, Puntos nota, Nombre_Inst, Plazas
+select  * from Solicitudes join estudiantes using(ID)
+
+where Puntos < (select avg(Puntos) as mean from estudiantes );
+
+/*comentar codigo
+comando/ */

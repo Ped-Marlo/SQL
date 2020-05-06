@@ -1,0 +1,37 @@
+insert into Solicitudes values (123, 'Instituto Ramiro de Maeztu', 'Tecnologia', 'Si');
+
+insert into Solicitudes values (123, 'Instituto Ramiro de Maeztu', 'Ciencias Sociales', 'No');
+
+insert into Solicitudes values (123, 'Instituto San Isidro', 'Tecnologia', 'Si');
+
+insert into Solicitudes values (123, 'Instituto Torres Quevedo', 'Ciencias Sociales', 'Si');
+
+insert into Solicitudes values (234, 'Instituto San Isidro', 'Ciencias', 'No');
+
+insert into Solicitudes values (345, 'Instituto Arturo Soria', 'Tecnologia', 'Si');
+
+insert into Solicitudes values (345, 'Instituto Torres Quevedo', 'Tecnologia', 'No');
+
+insert into Solicitudes values (345, 'Instituto Torres Quevedo', 'Ciencias', 'Si');
+
+insert into Solicitudes values (345, 'Instituto Torres Quevedo', 'Ciencias Sociales', 'No');
+
+insert into Solicitudes values (678, 'Instituto Ramiro de Maeztu', 'Ciencias Sociales', 'Si');
+
+insert into Solicitudes values (987, 'Instituto Ramiro de Maeztu', 'Tecnologia', 'Si');
+
+insert into Solicitudes values (987, 'Instituto San Isidro', 'Tecnologia', 'Si');
+
+insert into Solicitudes values (876, 'Instituto Ramiro de Maeztu', 'Tecnologia', 'No');
+
+insert into Solicitudes values (876, 'Instituto Arturo Soria', 'Ciencias', 'Si');
+
+insert into Solicitudes values (876, 'Instituto Arturo Soria', 'Ciencias Sociales', 'No');
+
+insert into Solicitudes values (765, 'Instituto Ramiro de Maeztu', 'Ciencias Sociales', 'Si');
+
+insert into Solicitudes values (765, 'Instituto Torres Quevedo', 'Ciencias Sociales', 'No');
+
+insert into Solicitudes values (765, 'Instituto Torres Quevedo', 'Ciencias', 'Si');
+
+insert into Solicitudes values (543, 'Instituto Arturo Soria', 'Tecnologia', 'No');

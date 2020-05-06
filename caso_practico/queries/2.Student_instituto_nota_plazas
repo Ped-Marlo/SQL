@@ -1,0 +1,8 @@
+select    ID, Nombre_Est, Puntos nota, Nombre_Inst, Plazas
+from (Solicitudes  join Estudiantes using (ID)) join Institutos using (Nombre_Inst) 
+order by Puntos desc, Plazas 
+/*comentar codigo
+comando/ */
+/*SELECT Estudiantes.ID, Nombre_Est, Puntos nota, Solicitudes.Nombre_Inst, Plazas
+FROM Estudiantes, Institutos, Solicitudes 
+WHERE Solicitudes.ID = Estudiantes.ID AND Solicitudes.Nombre_Inst = Institutos.Nombre_Inst ORDER BY Puntos DESC, Plazas;*/

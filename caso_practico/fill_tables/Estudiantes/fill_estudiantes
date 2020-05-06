@@ -1,0 +1,25 @@
+
+delete from Estudiantes;
+insert into Estudiantes values (123, 'Antonio', 8.9, 1000);
+
+insert into Estudiantes values (234, 'Juan', 8.6, 1500);
+
+insert into Estudiantes values (345, 'Isabel', 8.5, 500);
+
+insert into Estudiantes values (456, 'Doris', 7.9, 1000);
+
+insert into Estudiantes values (567, 'Eduardo', 6.9, 2000);
+
+insert into Estudiantes values (678, 'Carmen', 5.8, 200);
+
+insert into Estudiantes values (789, 'Isidro', 8.4, 800);
+
+insert into Estudiantes values (987, 'Elena', 6.7, 800);
+
+insert into Estudiantes values (876, 'Irene', 6.9, 400);
+
+insert into Estudiantes values (765, 'Javier', 7.9, 1500);
+
+insert into Estudiantes values (654, 'Alfonso', 7.9, 1000);
+
+insert into Estudiantes values (543, 'Pedro', 5.4, 2000);

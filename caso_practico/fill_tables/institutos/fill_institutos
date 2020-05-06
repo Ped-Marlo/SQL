@@ -1,0 +1,4 @@
+insert into  Institutos values( 'Instituto San Isidoro','Centro',150);
+insert into  Institutos values( 'Instituto Ramiro de Maetzu','Salamanca',360);
+insert into  Institutos values( 'Instituto Arturo Soria','Hortaleza',100);
+insert into  Institutos values( 'Instituto Torres Quevedo','Moncloa',210);

@@ -1,0 +1,3 @@
+Select e.Nombre_est nombre , e.puntos nota,s.Decision,s.Nombre_Inst,s.Via
+from Estudiantes e  join Solicitudes s using(ID) 
+where e.valor<1000 and s.via='Tecnologia' and s.Nombre_Inst='Instituto Ramiro de Maeztu';

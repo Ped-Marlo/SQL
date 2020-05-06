@@ -1,0 +1,9 @@
+--select    ID, Nombre_Est, Puntos nota, Nombre_Inst, Plazas
+delete from Solicitudes
+where ID in (select ID from solicitudes group by ID having count(distinct via)> 2);
+create view solicitudes_vista as select * from solicitudes
+/*comentar codigo
+comando/ */
+/*SELECT Estudiantes.ID, Nombre_Est, Puntos nota, Solicitudes.Nombre_Inst, Plazas
+FROM Estudiantes, Institutos, Solicitudes 
+WHERE Solicitudes.ID = Estudiantes.ID AND Solicitudes.Nombre_Inst = Institutos.Nombre_Inst ORDER BY Puntos DESC, Plazas;*/
